@@ -1,0 +1,214 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>FAIR Data and Semantic Publishing</title>
+<link rel="stylesheet" href="css/reveal.css">
+<link rel="stylesheet" href="css/theme/white.css">
+<style>
+p.sourcenote {
+font-size: 8pt;
+margin-top: 0px;
+}
+span.cem {
+color: #d66;
+}
+span.cem2 {
+color: #66d;
+}
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+text-transform: none;
+}
+</style>
+</head>
+
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section>
+<h2><span class="cem">FAIR Data and Semantic Publishing</span></h2>
+<p>Tobias Kuhn</p>
+<small>
+<p>Guest Lecture for Introduction Data Science Course</p>
+<p>VU Amsterdam</p>
+<p>8 October 2018</p>
+<p>These Slides: <a href="https://tinyurl.com/introds2018fair">https://tinyurl.com/introds2018fair</a></p>
+</small>
+</section>
+
+<section>
+<h3>Scientific Datasets!</h3>
+<img class="plain stretch" src="img/dataset.png"/>
+</section>
+
+<section>
+<h3>FAIR</h3>
+<p><span class="cem2">The FAIR Guiding Principles:</span></p>
+<p>Scientific datasets should be</p>
+<ul>
+<li>Findable</li>
+<li>Accessible</li>
+<li>Interoperable</li>
+<li>Reusable</li>
+</ul>
+<p><br></p>
+<small>
+<p>Mark Wilkinson et al. The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3(160018), 2016.</p>
+</small>
+</section>
+
+<section>
+<h3>Findable</h3>
+<ul>
+<li><span class="cem">F1.</span> (meta)data are assigned a globally <span class="cem2">unique and persistent identifier</span></li>
+<li><span class="cem">F2.</span> data are described with <span class="cem2">rich metadata</span> (defined by R1 below)</li>
+<li><span class="cem">F3.</span> metadata clearly and explicitly include the <span class="cem2">identifier of the data</span> it describes</li>
+<li><span class="cem">F4.</span> (meta)data are <span class="cem2">registered or indexed</span> in a searchable resource</li>
+</ul>
+</section>
+
+<section>
+<h3>Accessible</h3>
+<ul>
+<li><span class="cem">A1.</span> (meta)data are <span class="cem2">retrievable</span> by their identifier using a standardized communications <span class="cem2">protocol</span></li>
+<li><span class="cem">A1.1.</span> the protocol is <span class="cem2">open, free, and universally implementable</span></li>
+<li><span class="cem">A1.2.</span> the protocol allows for an <span class="cem2">authentication and authorization</span> procedure, where necessary</li>
+<li><span class="cem">A2.</span> <span class="cem2">metadata are accessible</span>, even when the data are no longer available</li>
+</ul>
+</section>
+
+<section>
+<h3>Interoperable</h3>
+<ul>
+<li><span class="cem">I1.</span> <span class="cem2">(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.</span></li>
+<li><span class="cem">I2.</span> (meta)data use vocabularies that follow FAIR principles</li>
+<li><span class="cem">I3.</span> (meta)data include qualified references to other (meta)data</li>
+</ul>
+</section>
+
+<section>
+<h3>Reusable</h3>
+<ul>
+<li><span class="cem">R1.</span> (meta)data are <span class="cem2">richly described</span> with a plurality of accurate and relevant attributes</li>
+<li><span class="cem">R1.1.</span> (meta)data are released with a clear and accessible data usage <span class="cem2">license</span></li>
+<li><span class="cem">R1.2.</span> (meta)data are associated with detailed <span class="cem2">provenance</span></li>
+<li><span class="cem">R1.3.</span> (meta)data meet domain-relevant <span class="cem2">community standards</span></li>
+</ul>
+</section>
+
+<section>
+<h3>Scientific Papers and Data</h3>
+<img class="plain stretch" src="img/paper.png"/>
+<p>Scientific Papers are Data Too!</p>
+</section>
+
+<section data-transition="slide none">
+<h3>Scientific Papers:<br>Optimized for Reading Single Work</h3>
+<img class="plain stretch" src="img/intro1.svg"/>
+</section>
+
+<section data-transition="none">
+<h3>Scientific Papers:<br>Bad for Getting More General View</h3>
+<img class="plain stretch" src="img/intro2.svg"/>
+</section>
+
+<section data-transition="none">
+<h3>Scientific Papers:<br>Unused Potential of Software/Databases</h3>
+<img class="plain stretch" src="img/intro.svg"/>
+</section>
+
+<section>
+<h3>Automatic Text Mining is Not Good Enough</h3>
+<p>World-leading text mining on chemical–disease relations:</p>
+<p>
+<img class="plain" style="width:50%" src="img/biocreative-logo.png"/>
+<br/>
+<img class="plain" style="width:50%" src="img/biocreative.svg"/>
+</section>
+
+<section>
+<h3>Manual Text Mining is Slow and Expensive</h3>
+<p>Around 50 biocurators employed to feed European protein databases:</p>
+<p>
+<img class="plain"style="width:100%" src="img/biocurator.svg"/>
+</section>
+
+<section>
+<h3>New Paradigms of Scientific Publishing?</h3>
+<img class="plain stretch" src="img/new1.svg"/>
+</section>
+
+<section data-transition="slide none">
+<h3>Classical Publishing</h3>
+<img class="plain stretch" src="img/flowers1.png"/>
+<small><p>Kuhn and Dumontier. Genuine semantic publishing. Data Science, 1(1-2), 2017.</p></small>
+</section>
+
+<section data-transition="none">
+<h3>"Semantic Publishing"</h3>
+<img class="plain stretch" src="img/flowers2.png"/>
+<small><p>Kuhn and Dumontier. Genuine semantic publishing. Data Science, 1(1-2), 2017.</p></small>
+</section>
+
+<section data-transition="none">
+<h3>Genuine Semantic Publishing</h3>
+<img class="plain stretch" src="img/flowers3.png"/>
+<small><p>Kuhn and Dumontier. Genuine semantic publishing. Data Science, 1(1-2), 2017.</p></small>
+</section>
+
+<section>
+<h3>A New Paradigm of Scientific Publishing</h3>
+<img class="plain stretch" src="img/new2.svg"/>
+</section>
+
+<section>
+<h3>Nanopublications</h3>
+<img class="plain stretch" src="img/nanopub.svg"/>
+</section>
+
+<section>
+<h3>Nanopublication Datasets</h3>
+<small>
+<ul>
+<li><span class="cem2">Global Biotic Interactions (GloBI):</span> 79 502 nanopublications</li>
+<li><span class="cem2">DrugBank via Bio2RDF:</span> 39 268 nanopublications</li>
+<li><span class="cem2">Small Kidney Disease Dataset:</span> 1657 nanopublications</li>
+<li><span class="cem2">Small Rare Disease Dataset:</span> 4583 nanopublications</li>
+<li><span class="cem2">OpenBEL:</span> 74 173 nanopublications in latest version</li>
+<li><span class="cem2">Human Protein Atlas (HPA):</span> 1 254 468 nanopublications</li>
+<li><span class="cem2">neXtProt:</span> 4 025 981 nanopublications</li>
+<li><span class="cem2">GeneRIF/AIDA:</span> 156 026 nanopublications</li>
+<li><span class="cem2">DisGeNET:</span> 1 469 541 nanopublications in latest version</li>
+<li><span class="cem2">WikiPathways:</span> 17 147 nanopublications in latest version</li>
+<li><span class="cem2">LIDDI:</span> 98 085 nanopublications</li>
+</ul>
+</small>
+<p>Overall: 10 803 231 nanopublications</p>
+<small><p>Tobias Kuhn et. al. Nanopublications: A Growing Resource of Provenance-Centric Scientific Linked Data. In Proceedings of IEEE eScience 2018.</p></small>
+</section>
+
+<section>
+<h3>Nanopublication Publishing</h3>
+<img class="plain stretch" src="img/npmonitor.png"/>
+<small><p>Tobias Kuhn​ et al. Decentralized provenance-aware publishing with nanopublications. PeerJ Computer Science, 2:e78, 2016.</p></small>
+</section>
+
+<section>
+<h3>Thank you for Your Attention!</h3>
+<br/>
+<h3><span class="cem">Questions?</span></h3>
+</section>
+
+</div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+<script src="init.js"></script>
+</body>
+</html>
